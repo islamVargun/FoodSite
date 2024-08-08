@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>restoran Web site</title>
+  </head>
+  <link rel="stylesheet" href="styles/style.css" />
+  <body>
+    <!--! header section start -->
+    <header class="header">
+      <a href="" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="#" class="active">Ana Sayfa</a>
+        <a href="#about">Hakkında</a>
+        <a href="#menu">Menü</a>
+        <a href="#products">Ürünler</a>
+        <a href="#review">Değerlendirme</a>
+        <a href="#contact">İletişim</a>
+        <a href="#blogs">Tarifler</a>
+      </nav>
+      <div class="buttons" id="search-btn">
+        <button>
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="card-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="card-items-container">
+        <div class="card-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu" />
+          <div class="content">
+            <h3>card item 01</h3>
+            <div class="price">150 TL/-</div>
+          </div>
+        </div>
+        <div class="card-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu" />
+          <div class="content">
+            <h3>card item 01</h3>
+            <div class="price">150 TL/-</div>
+          </div>
+        </div>
+        <div class="card-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu" />
+          <div class="content">
+            <h3>card item 01</h3>
+            <div class="price">150 TL/-</div>
+          </div>
+        </div>
+        <div class="card-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu" />
+          <div class="content">
+            <h3>card item 01</h3>
+            <div class="price">150 TL/-</div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!--! header section end -->
+
+    <!--! home section start -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>EVLERE HIZLI TESLİMAT</h3>
+        <p style="color: whitesmoke">
+          En hızlı teslimat burada!. Sizde şimdi sipariş vererek 15 dakika
+          içerisinde incecik pizza ve bol malzemeli hamburger yiyebilirsiniz!.
+          Hadi ne duruyorsun ver siparişini.
+        </p>
+        <a href="#" class="btn">Şimdi Sipariş Ver!</a>
+      </div>
+    </section>
+    <!--! home section end -->
+
+    <!--! menu section start -->
+    <section class="menu" id="menu">
+      <h1 class="heading">ÇOKLU <span>MENÜLERİMİZ</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-1.png" alt="menu" />
+            <span class="menu-category">PiZZA</span>
+            <h3>6 Adet Mini Pizza</h3>
+            <div class="price">699.99 TL <span>899.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-2.png" alt="menu" />
+            <span class="menu-category">Hamburger</span>
+            <h3>5 Adet Mini Burger</h3>
+            <div class="price">599.99 TL <span>699.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-3.png" alt="menu" />
+            <span class="menu-category">PiZZA</span>
+            <h3>2 Adet Büyük Pizza</h3>
+            <div class="price">299.99 TL <span>399.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-4.png" alt="menu" />
+            <span class="menu-category">HAMBURGER</span>
+            <h3>6 Adet Bol Burger</h3>
+            <div class="price">899.99 TL <span>1299.99 TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! menu section end -->
+
+    <!--! products section start  -->
+    <section class="products" id="products">
+      <h1 class="heading">Teklİ <span>ÜRÜNLERİMİZ</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MİNİ BURGER</span>
+            <a href="#" class="name">Tavuk Burger</a>
+          </div>
+          <div class="image">
+            <img src="images/product-1.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">99.99 TL</b>
+              <span class="amount">110gr | 300cl</span>
+            </div>
+            <div class="products-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MİNİ BURGER</span>
+            <a href="#" class="name">Sİyah Burger</a>
+          </div>
+          <div class="image">
+            <img src="images/product-2.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">99.99 TL</b>
+              <span class="amount">110gr | 300cl</span>
+            </div>
+            <div class="products-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box dark-bg">
+          <div class="box-head">
+            <span class="title">MİNİ BURGER</span>
+            <a href="#" class="name">Bonfile Burger</a>
+          </div>
+          <div class="image">
+            <img src="images/dark-product.jpg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">99.99 TL</b>
+              <span class="amount">110gr | 300cl</span>
+            </div>
+            <div class="products-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! products section end  -->
+
+    <!--! about section start  -->
+    <section class="about" id="about">
+      <h1 class="heading">BURGERLERİMİZ <span>Hakkında</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="about" />
+        </div>
+        <div class="content">
+          <h3>Burgerlerimizin Özel Sırları</h3>
+          <p>
+            Lübnan, İsrail gibi Orta Doğu ülkelerinde sık sık tüketilen
+            falafeli, bu kez hamburger köftesi olarak sunuyoruz. Vejetaryen
+            menüleri için de uygun olan falafel burgeri, köz biber sosu ve
+            tortilla ekmeği ile servis edebilirsiniz.
+          </p>
+          <p>
+            Dana velute, isli mayo, tiftik dana tranç ve brioche ekmeği ile
+            hazırlanan tiftik burger, hazırlaması en uzun süren burgerlerden
+            biridir. Ancak lezzeti verilen tüm emeği hak ediyor, bizden
+            söylemesi.
+          </p>
+          <p>
+            Kuru domatesli biberiyeli hamburger ekmeği, alfredo tavuk kroket ve
+            aioli sosu ile hazırlanan bu hamburger, tavuk severlerin
+            favorilerinden biridir. Hazırlama süresi 1 saat, pişirme süresi ise
+            10 dakikadır.
+          </p>
+
+          <a href="#" class="btn">Daha Fazlası</a>
+        </div>
+      </div>
+    </section>
+    <!--! about section end  -->
+
+    <!--! review section start  -->
+    <section class="review" id="review">
+      <h1 class="heading">Müşteri <span>yorumları</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Yorumum üstte gözüksün diye 4.5 yıldız verdim. Kesinlikle verdiğim
+            yıldızı hakeden bir menü değildi. Ekmek yanmıştı ve et pişmemişti.
+            Garsonlar ilgili değildi. 15 dakika beklemek zorunda kaldım. Çok
+            kabaydı garsonumuz. Ayrıca keşke aşçıyı görebilseydimde yüzüne
+            tükürme fırsatım olsaydı. Neyse olan oldu hakkımı helal
+            etmiyorum(!).
+          </p>
+          <img src="images/avatar-1.png" alt="avatar" class="user" />
+          <h3>Gizli Müşteri</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            önce kendim gittim, baktım inanılmaz lezzet, bir dahaki sefere eşimi
+            Kayseri'den İStanbul'a getirme sebebim oldu. Tereyağlı burgeri
+            efsanedir. Steak konusunda da ayrı bir olaydır Dükkan. Şahenk'lerin,
+            Koç'ların uğrak mekanı imiş. Azıcık rakamların üzerine çok koydular
+            ama herbir kuruşuna değer. <br />
+            <br />
+          </p>
+          <img src="images/avatar-2.png" alt="avatar" class="user" />
+          <h3>İbrahim Tatlıses</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Kesinlikle uzun zaman sonra gerçek hamburgerdi ellerinize sağlık
+            sıcak geliyor patatesler mükemmel tek te olsa soğan halkası ikramı
+            için teşekkürler :) Böyle bir lezzet yok daha önce hamburger
+            yememişiz sanki birde sıcak gelmesi süper yanındaki ikramınız içinde
+            teşekkür ederim elinize emeğinize sağlık
+          </p>
+          <img src="images/avatar-3.png" alt="avatar" class="user" />
+          <h3>Mahmut tuncer</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! review section end */ -->
+
+    <!-- ! contact section start -->
+    <section class="contact" id="contact">
+      <h1 class="heading">BİZİMLE <span>İLETİŞİME</span> GEÇ</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.839695813744!2d29.24349507551274!3d40.98499092085929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad03a85aacd35%3A0xa97c2c61b882909!2sOsmangazi%2C%20Umman%20Sk.%20No%3A7%2C%2034887%20Sancaktepe%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1722494321504!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>İLETİŞİM BİLGİLERİNİZ</h3>
+          <div class="İnputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="İsim Soyisim" />
+          </div>
+          <div class="İnputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="E-posta" />
+          </div>
+          <div class="İnputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="Telefon Numarası" />
+          </div>
+          <input type="submit" name="" class="btn" value="GÖNDER" />
+        </form>
+      </div>
+    </section>
+    <!-- ! contact section end -->
+
+    <!--! blog section start -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">EVDE <span>BURGER </span>YAPIMI</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Chedarlı Burger Nasıl Yapılır?</a>
+            <span>10 Mayıs 2021</span>
+            <p style="color: black">
+              <br />Chedarlı domatesli türüflü burgerimizin tarifi burada!
+              <br /><br />
+            </p>
+            <a href="" class="btn">Daha fazlası...</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Bol malzemeli Burger Nasıl Yapılır?</a>
+            <span>15 Kasım 2018</span>
+            <p style="color: black">
+              <br />Karamelize soğan, turşu ve özel soslu burgerimizin tarifi
+              burada! <br />
+              <br />
+            </p>
+            <a href="" class="btn">Daha fazlası...</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Burger Kurabiye Nasıl Yapılır?</a>
+            <span>30 Ocak 2024</span>
+            <p style="color: black">
+              Özel burger kurabiyemiz burada. İçinde neler var tahmin edemezsin!
+            </p>
+            <a href="" class="btn">Daha fazlası...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! blog section end -->
+
+    <!--! footer section start -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Arama" />
+        <button class="btn btn-primary">Arama</button>
+      </div>
+      <div class="share">
+        <a
+          href="https://www.facebook.com/islamfatihterimoglu/"
+          class="fab fa-facebook"
+          target="_blank"
+        ></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a
+          href="https://www.linkedin.com/in/islam-varg%C3%BCn-852b5327b/"
+          class="fab fa-linkedin"
+          target="_blank"
+        ></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+      <div class="links">
+        <a href="#" class="active">Ana Sayfa</a>
+        <a href="#">Hakkında</a>
+        <a href="#">Menü</a>
+        <a href="#">Ürünler</a>
+        <a href="#">Değerlendirme</a>
+        <a href="#">İletişim</a>
+        <a href="#">Tarifler</a>
+      </div>
+      <div class="credit">
+        <span>İslam Vargün</span> tarafından tasarlandı | Tüm hakları saklıdır
+      </div>
+    </section>
+
+    <!--! footer section end -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
