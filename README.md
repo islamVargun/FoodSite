@@ -1,4 +1,4 @@
-# 🌐 First Web Project
+# 🌐 Food Site
 
 Bu proje, web geliştirme yolculuğuma başlarken sıfırdan oluşturduğum **ilk web sayfasıdır**.  
 Amacım HTML ve CSS ile sayfa yapısı oluşturmak, temel stillerle sayfayı şekillendirmek ve JavaScript ile ufak etkileşimler ekleyerek front-end'e giriş yapmaktı.
